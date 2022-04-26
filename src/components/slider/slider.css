@@ -1,0 +1,36 @@
+.caption{
+    /* width:450px; */
+    align-items: center;
+}    
+.button{
+    margin: 10px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    background-color: white;
+    color: black;
+}
+.button:hover{
+    color: blue;
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+.buttons{
+    
+    background: white;
+    transition: all .3s linear;
+
+}
+.slider{
+    width: 100%;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    background: blue;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+
+}
