@@ -9,7 +9,7 @@ import {FiPlay} from 'react-icons/fi';
 
 // import img4 from '../../images/4.jpg'
 
-function slider() {
+function Slider() {
   return (
     <div className='slider'>
     <Carousel>
@@ -69,4 +69,4 @@ function slider() {
   )
 }
 
-export default slider
+export default Slider

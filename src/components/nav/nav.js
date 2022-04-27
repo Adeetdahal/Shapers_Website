@@ -4,7 +4,7 @@ import {MdArrowDropDown} from 'react-icons/md';
 // import {Link} from 'react-router-dom';
 
 function nav() {
-  return (
+return (
     <div>
     <div className="main-nav">
         <div className="logo">
@@ -15,7 +15,8 @@ function nav() {
             <div className='dropdown'>
                 <button className='dropdownbtn list'> About <MdArrowDropDown/></button>
                 <div className='dropdown-content'>
-                <a href="">About Us</a>
+                    {/* <Link to='/about'>About Us</Link> */}
+                    <a href=""> About Us </a>
                 <a href=""> More </a>
                 </div>
             </div>
@@ -32,7 +33,7 @@ function nav() {
         </div>
     </div>
     </div>
-  )
+ )
 }
 
 export default nav
