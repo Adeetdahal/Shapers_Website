@@ -1,9 +1,13 @@
 import React from 'react'
+import './about.css'
 
-function about() {
+function About() {
   return (
-    <div>This is About Page</div>
+    <div>
+      <div className="about-mainheader">About Us</div>
+      <h6 className='about-header'> WHAT WE DO</h6>
+    </div>
   )
 }
 
-export default about
+export default About
