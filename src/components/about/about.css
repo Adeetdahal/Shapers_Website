@@ -1,19 +1,74 @@
+.about-shapers{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
 .about-mainheader{
     display: flex;
     justify-content: center ;
-    font-size: 50px;
+    font-size: 80px;
     color: grey;
-    opacity: .5;
+    opacity: .3;
     font-family: "Lucida Console", "Courier New", monospace;
-    
-    /* align-items: center; */
 }
 .about-header{
     color: blue;
     display: flex;
     justify-content: center ;
     position: absolute;
-    top: 95px;
+    top: 110px;
     z-index: 1;
     width: 100%;
+    font-size:25px;
+}
+.about-title{
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about-para{
+    text-align: center;
+    font-size: larger;
+    padding: 20px;
+}
+.members{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid red;
+    padding: 30px; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding: 50px 0;
+}
+@media screen and (max-width:1020px) {
+    .members{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+}
+.each-member{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 550px;
+    
+
+}
+.member-img{
+    height: 430px;
+    width: 350px;
+    border-radius: 5px;
+}
+.member-name, .member-position{
+    padding-top: 10px;
+    text-align: center;
 }

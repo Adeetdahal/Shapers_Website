@@ -5,10 +5,10 @@ import Footer from './../../footer/footer'
 import ReactPaginate from 'react-paginate'
 
 function Project() {
-    const [users, setUsers] = useState(projectsData.slice(0,4));
+    const [users, setUsers] = useState(projectsData);
     const [pageNumber, setPageNumber] = useState(0);
 
-    const usersPerPage = 10;
+    const usersPerPage = 6;
     const pagesVisited = pageNumber * usersPerPage;
 
     const displayUsers = users.slice(pagesVisited,pagesVisited + usersPerPage )
@@ -28,7 +28,7 @@ function Project() {
 
 return (
 <div>
-    <div className='main-project'>
+    <div className='main-projects'>
         <div className="proj-desc">
             <div className="proj-text">
                 <h2 className='proj-heading'>
@@ -54,18 +54,27 @@ return (
             <h2 className='proj-heading2'>Number of Projects</h2>
             <div className='list-div'>
             {displayUsers}
-            <ReactPaginate
-            previousLabel={"Previous"}
-            nextLabel={"Next"}
-            pageCount={pageCount}
-            onPageChange={changePage}
-            containerClassName={"paginationBtns"}
-            previousClassName={"previousBtns"}
-            nextLinkClassName={"nextBtn"}
-            disabledClassName={"paginationDisabled"}
-            activeClassName={"paginationActive"}
-            />
             </div>
+            <ReactPaginate
+            nextLabel="next >"
+            onPageChange={changePage}
+            pageRangeDisplayed={3}
+            marginPagesDisplayed={2}
+            pageCount={pageCount}
+            previousLabel="< previous"
+            pageClassName="page-item"
+            pageLinkClassName="page-link"
+            previousClassName="page-item"
+            previousLinkClassName="page-link"
+            nextClassName="page-item"
+            nextLinkClassName="page-link"
+            breakLabel="..."
+            breakClassName="page-item"
+            breakLinkClassName="page-link"
+            containerClassName="pagination"
+            activeClassName="active"
+            renderOnZeroPageCount={null}
+            />
         </div>
     </div>
         <Footer/>

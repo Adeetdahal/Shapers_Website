@@ -4,6 +4,7 @@ import Nav from './components/nav/nav';
 import About from './components/about/about'
 import Home from './components/home/home'
 import Projects from './components/projects/project'
+import Contact from './components/contact/Contact.jsx'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/projects" element={<Projects/>}/>
+          <Route path="/contact" element={<Contact/>}/>
           {/* <Route path="*" element={<ErrorPage/>}/> */}
         </Routes>
       </Router>

@@ -1,24 +1,27 @@
-.main-project{
+/* @import "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"; */
+.main-projects{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    margin: 0 80px 0 80px;
+    margin: 0 20px 0 20px;
     /* width: 80%; */
     /* background-color: aqua; */
 }
 .proj-desc{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: rows;
-    width: 100%;
+    width: 75%;
     /* height: auto; */
     padding: 60px 0 60px 0;
 }
 .proj-text{
     display: flex;
     flex-direction: column;
-    width: 750px;
+    width: 600px;
 }
 .proj-heading{
     font-weight: bold;
@@ -33,17 +36,19 @@
 }
 .img660{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .all-projects{
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
     flex-direction: column;
+    width: 75%;
 }
 .proj-heading2{
     font-weight: bold;
     font-size: 35px;
     padding-bottom: 15px;
+    /* padding-right: 1000px; */
 }
 .list-div{
     width: 100%;
@@ -68,8 +73,17 @@
 .listgrid{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 5px;
+    align-items: flex-start;
+    /* padding: 5px; */
+    width: 100%;
 }
 .repo-title{
+    align-items: center;
+    width: 100%;
+    padding-left: 80px;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }

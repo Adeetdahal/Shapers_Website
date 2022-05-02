@@ -24,7 +24,9 @@ return (
             </div>
             <div className='list'>
             <Link to='/projects'className='list-nav'>Projects</Link></div>
-            <div className='list'>Contact</div>
+            <div className='list'>
+            <Link to='/contact' className='list-nav'>Contact</Link>
+            </div>
             <div className='dropdown'>
                 <button className='dropdownbtn list join'> 
                 Join us <MdArrowDropDown/></button>

@@ -23,10 +23,23 @@ const projectsData=[
         img:"https://dummyimage.com/450x300/000/fff/&text=Dummy+Project+Pictures",
         title:"Wellness Weekend",
     },
-    // {
-    //     img:"",
-    //     title:"Mental Health",
-    // },
+    {
+        img:"https://dummyimage.com/450x300/000/fff/&text=Dummy+Project+Pictures",
+        title:"Digital Terai",
+    },
+    {
+        img:"https://dummyimage.com/450x300/000/fff/&text=Dummy+Project+Pictures",
+        title:"Koteshwor"
+    },
+    {
+        img:"https://dummyimage.com/450x300/000/fff/&text=Dummy+Project+Pictures",
+        title:"Devistan",
+    },
+    {
+        img:"https://dummyimage.com/450x300/000/fff/&text=Dummy+Project+Pictures",
+        title:"hwllo world",
+    },
+
 
 ]
 
