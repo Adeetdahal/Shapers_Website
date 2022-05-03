@@ -1,0 +1,151 @@
+.pd_main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.pd_top{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+    width: 100%;
+    height: auto;
+
+}
+.left_top_pd{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 40%;
+}
+.left_head{
+    display: flex;
+}
+.left_des{
+    display: flex;
+    color: rgb(0, 0, 0, .5);
+}
+.right_top_im{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.right_im{
+    width: 600px;
+    height: auto;
+}
+.p_info{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244,247,250);
+    border-radius:0 0 50px 50px;
+    width:100%;
+    height: 200px;
+    padding: 20px 0;
+   
+}
+.hrs{
+    display: flex;
+    align-self: center;
+    height: 1px;
+    width: 80%;
+    background-color: rgb(0,92,156);
+    
+}
+
+.sh_link{
+    color: rgb(0, 0, 0, .5);
+    text-decoration: none;
+}
+span{
+    color: rgb(0, 0, 0, .5);
+}
+.pro_i{
+    display: flex;
+    font-size: larger;
+    padding-left: 65px;
+}
+.info_pb{
+    display: flex;
+    flex-direction: column;
+    padding-left: 65px;
+    padding-top: 10px;
+}
+.pd_mid{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding:20px 200px;
+}
+.impact_head{
+    display: flex;
+    padding: 20px 60px;
+}
+.impact_title{
+    display: flex;
+}
+.i_boxes{
+    display: flex;
+    padding: 20px 60px;
+    
+}
+.i_box{
+    display: flex;
+    flex-direction: column;
+    
+}
+.d_img{
+    display: flex;
+    height: 320px;
+    width: 450px;
+    border-radius: 5px ;
+}
+.i_box_title{
+    display: flex;
+    padding-top: 15px;
+}
+.i_box_time{
+    display: flex;
+    padding-top: 15px;
+    color: rgb(0, 0, 0, .5);
+}
+.pd_share{
+    display: flex;
+    flex-direction: column;
+}
+.pd_info{
+    padding-left: 260px;
+    width: 86%;
+    color: rgb(0, 0, 0, .5);
+}
+.tick  {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 320px;
+}
+.tick_1{
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 0, 0, .5);
+}
+.share{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0, .5);
+    flex-direction: column;
+    padding: 50px;
+}
+.share_this{
+    display: flex;
+}
+.icon_share{
+    display: flex;
+    flex-direction: row;
+    padding:5px 0 50px 0;
+}
+.icon_s{
+    display: flex;
+    padding: 10px;
+}

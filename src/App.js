@@ -5,6 +5,9 @@ import About from './components/about/about'
 import Home from './components/home/home'
 import Projects from './components/projects/project'
 import Contact from './components/contact/Contact.jsx'
+import BecomeShaper from './components/joinUs/Shaper'
+import Impacts from './components/projects/impact/Impacts'
+import Details from './components/projects/details/ProjectDetails'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,7 +20,10 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/projects" element={<Projects/>}/>
           <Route path="/contact" element={<Contact/>}/>
-          {/* <Route path="*" element={<ErrorPage/>}/> */}
+          <Route path="/become-a-shaper" element={<BecomeShaper/>}/>
+          <Route path="/project-impacts" element={<Impacts/>}/>
+          <Route path="/project-details" element={<Details/>}/>
+          {/* <Route path='*' element={<PageNotFound/>}/> */}
         </Routes>
       </Router>
     </div>

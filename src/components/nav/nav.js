@@ -18,12 +18,16 @@ return (
                 <button className='dropdownbtn list'> About <MdArrowDropDown/></button>
                 <div className='dropdown-content'>
                     <Link to='/about'>About Us</Link>
-                    {/* <a href=""> About Us </a> */}
-                <a href=""> More </a>
+                    <Link to='/about'>About Shapers</Link>
                 </div>
             </div>
-            <div className='list'>
-            <Link to='/projects'className='list-nav'>Projects</Link></div>
+            <div className='dropdown'>
+                <button className='dropdownbtn list'> <Link to='/projects'className='list-nav'>Projects</Link> <MdArrowDropDown/></button>
+                <div className='dropdown-content'>
+                    <Link to='/project-details'>Project Details</Link>
+                    <Link to='/project-impacts'>Impact Details</Link>
+                </div>
+            </div>
             <div className='list'>
             <Link to='/contact' className='list-nav'>Contact</Link>
             </div>
@@ -31,8 +35,8 @@ return (
                 <button className='dropdownbtn list join'> 
                 Join us <MdArrowDropDown/></button>
                 <div className='dropdown-content'>
-                <a href="">Become a Shaper</a>
-                <a href=""> Become a Sponser </a>
+                    <Link to='/become-a-shaper'>Become a Shaper</Link>
+                <a href="3"> Become a Sponser </a>
                 </div>
             </div>
         </div>
