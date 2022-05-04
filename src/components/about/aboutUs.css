@@ -1,0 +1,80 @@
+.abt_main{
+background-image: linear-gradient(315deg, #24C6DC 0%, #514A9D 74%);
+
+}
+.main_about{
+    padding-top: 50px;
+    margin: 0 10%;
+    color: white
+}
+.about-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
+.top_img{
+    width: 80%;
+    height: 550px;
+    position: absolute;
+}
+.abtus{
+    position: relative;
+    font-size: 50px;
+    padding:12%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(232, 230, 236);
+}
+.comm{
+    position: relative;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    
+}
+.vid{
+    display: flex;
+    width: 50%;
+}
+.ima{
+    display: flex;
+    align-items: center;
+}
+.community{
+    display: flex;
+    width: 100%;
+}
+.pa{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    width: 55%;
+}
+.sh_ktm{
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: row;
+}
+.ovm{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 50px 0;
+}
+.o{
+    text-align: center;
+}
+.cards{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px;
+    border-radius: 20px;
+    /* height: fit-content; */
+    /* overflow: scroll; */
+}
+.cards::-webkit-scrollbar {
+    display: none;
+}

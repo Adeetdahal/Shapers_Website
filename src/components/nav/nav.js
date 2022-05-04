@@ -17,8 +17,8 @@ return (
             <div className='dropdown'>
                 <button className='dropdownbtn list'> About <MdArrowDropDown/></button>
                 <div className='dropdown-content'>
-                    <Link to='/about'>About Us</Link>
-                    <Link to='/about'>About Shapers</Link>
+                    <Link to='/about-us'>About Us</Link>
+                    <Link to='/about-shapers'>About Shapers</Link>
                 </div>
             </div>
             <div className='dropdown'>

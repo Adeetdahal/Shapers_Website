@@ -1,8 +1,8 @@
 import React from 'react'
-import './about.css'
-import Footer from './../../footer/footer'
+import './aboutShapers.css'
+import Footer from '../../footer/footer'
 
-function About() {
+function AboutShapers() {
   const memberData=[
     {
       image:'https://satishnepal.gitlab.io/shaper/assets/images/team/team1.png',
@@ -49,4 +49,4 @@ function About() {
   )
 }
 
-export default About
+export default AboutShapers

@@ -1,0 +1,11 @@
+.error-main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 100%;
+    align-items: center;
+}
+.error-para{
+    text-align: center;
+    font-size: 150px;
+}
